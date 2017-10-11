@@ -1,0 +1,115 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 1200px;
+  padding: 0;
+  margin: auto;
+  border: 0;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  }
+.header-container {
+  position: fixed;
+  height: 69px;
+  width: 1200px;
+  align-content: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+#logo img {
+  font-size: 50px;
+  padding: 0 0 10px 10px;
+  float: left;
+  color: seashell;
+}
+#nav-bar {
+  display: inline;
+  float: right;
+}
+#nav-bar a {
+  color: seashell;
+  text-decoration: underline;
+}
+a #mission, #featured {
+  padding-right: 20px;
+}
+.center {
+  text-align: center;
+}
+.mission {
+  margin: 0 auto;
+  width: 1200px;
+  height: 700px;
+  background-image:
+   url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#mission-text {
+  background-color: black;
+  margin: 0 auto;
+  top: 300px;
+  height: 100px;
+  width: 1200px;
+  vertical-align: middle;
+  position: relative;
+}
+.teas-container {
+  margin: 0 auto;
+  width: 1000px;
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.tea-block {
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+}
+#img {
+  height: 200px;
+  width: 300px;
+}
+h4 {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.locations-container {
+  height: 500px;
+  width: 1200px;
+  background-image:
+   url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-repeat: no-repeat;
+}
+h1 {
+  color: seashell;
+  padding-top: 55px;
+}
+.location-blocks {
+  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+  margin-left: 40px;
+  border-top: 15px;
+  opacity: 1;
+  margin-top: 15px;
+  padding-bottom: 100px;
+  height: 230px;
+  width: 300px;
+  background-color: black;
+}
+footer {
+  height: 200px;
+  background-color: black;
+}
+ #copy {
+  text-align: left;
+}
